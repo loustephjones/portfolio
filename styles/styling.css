@@ -1,45 +1,26 @@
+@font-face {
+  font-family: 'Myfont-Regular';
+  src: url('/Myfont-Regular\ 2.otf');
+}
+
+body {
+  background-color: #ece4db;
+}
+
+.circle {
+  text-align: center;
+  font-family: 'Myfont-Regular';
+  width: 600px;
+  height: 600px;
+  background-color: #f8edeb;
+  position: relative;
+  box-shadow: -2px 15px 11px -8px rgba(220, 219, 221, 0.69);
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
 h1 {
-  font-family: 'Montserrat';
-  font-weight: 900;
-  font-size: 200px;
-  text-align: center;
-}
-
-h1:hover {
-  color: #dc67d2;
-  transition-duration: 5s;
-  transition: ease-in;
-}
-
-h2,
-h3 {
-  font-family: 'Montserrat';
-  font-weight: 700;
-  text-align: center;
-}
-
-h4 {
-  font-family: 'Montserrat';
-  font-weight: 900;
-  text-align: center;
-  font-size: 200px;
-  color: #f0b6ec;
-}
-
-#weatherapp,
-#dinosaur,
-#sample {
-  filter: grayscale(100%);
-  transition: 0.3s ease-in-out;
-  width: auto;
-  height: auto;
-}
-
-#weatherapp:hover,
-#dinosaur:hover,
-#sample:hover {
-  filter: grayscale(0%);
-  transition: 0.3s ease-in-out;
-  width: auto;
-  height: auto;
+  line-height: 600px;
+  font-size: 100px;
+  color: #868d89;
 }
