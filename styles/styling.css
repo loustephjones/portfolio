@@ -1,32 +1,65 @@
 @font-face {
-  font-family: 'Myfont-Regular';
-  src: url('/Myfont-Regular\ 2.otf');
+  font-family: 'Myfont';
+  src: url('/fonts/Myfont-Regular\ 2.otf');
+}
+@font-face {
+  font-family: 'Serif Black';
+  src: url('/fonts/SERIBL__.TTF');
+}
+@font-face {
+  font-family: 'Serif Med';
+  src: url('/fonts/SERIM___.TTF');
+}
+@font-face {
+  font-family: 'Serif Italic';
+  src: url('/fonts/SERIMI__.TTF');
+}
+
+:root {
+  --primary-color: #d8e2dc;
+  --secondary-color: #fec5bb;
 }
 
 body {
-  background-color: #ece4db;
+  background-color: white;
 }
 
-.circle {
+.hero {
+  background-color: var(--primary-color);
   text-align: center;
-  font-family: 'Myfont-Regular';
-  width: 600px;
-  height: 600px;
-  background-color: #f8edeb;
-  position: relative;
-  box-shadow: -2px 15px 11px -8px rgba(220, 219, 221, 0.69);
-  border-radius: 50%;
-  margin: auto;
-  margin-top: 10%;
+  padding: 160px 20px;
 }
 
-h1 {
-  line-height: 600px;
-  font-size: 100px;
-  color: #868d89;
+.hero h1 {
+  font-family: 'Myfont';
+  font-size: 70px;
+  padding-top: 25%;
+  line-height: 0.7;
 }
 
-h2 {
-  font-size: 50px;
-  color: #868d89;
+.hero h2 {
+  font-family: 'Myfont';
+  font-size: 30px;
+  line-height: 0.2;
+}
+
+.btn-brand {
+  font-family: 'Montserrat';
+  font-size: 18px;
+  font-weight: 700;
+  background: var(--secondary-color);
+  border-radius: 25px;
+  color: white;
+  line-height: 27px;
+  padding: 15px 30px;
+  margin-top: 7%;
+}
+
+.centerpiece {
+  height: 330px;
+  width: 400px;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 20px;
+  box-shadow: 10px 10px 26px -16px rgba(0, 0, 0, 0.75);
 }
