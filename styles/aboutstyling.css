@@ -64,32 +64,6 @@ h1 {
 #social {
   justify-content: space-between;
 }
-@media (max-width: 960px) {
-  h1 {
-    font-size: 60px;
-    text-align: center;
-  }
-  .social-link,
-  .social-link:visited {
-    text-decoration: none;
-  }
-  .container {
-    text-align: center;
-    font-size: 15px;
-    margin: 0 auto;
-  }
-
-  #insta-link,
-  #github-link,
-  #linkedin-link {
-    font-size: 20px;
-    color: black;
-    text-decoration: none;
-    max-width: 30px;
-    display: flex;
-    margin: 0 auto;
-  }
-}
 
 ul {
   list-style: none;
@@ -121,4 +95,32 @@ footer a {
   font-family: 'Myfont';
   font-size: 30px;
   margin-bottom: 0;
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+  .social-link,
+  .social-link:visited {
+    text-decoration: none;
+  }
+  .container {
+    text-align: center;
+    font-size: 15px;
+    margin: 0 auto;
+  }
+
+  #insta-link,
+  #github-link,
+  #linkedin-link {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    max-width: 30px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+  }
 }
