@@ -176,3 +176,9 @@ a:visited {
   text-decoration: none;
   color: black;
 }
+
+.skill-icon {
+  color: black;
+  font-size: 60px;
+  margin-top: 10%;
+}
