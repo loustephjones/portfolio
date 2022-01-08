@@ -158,3 +158,15 @@ h3 {
   font-size: 70px;
   content: '\2193';
 }
+
+footer {
+  text-align: center;
+  font-family: 'Myfont';
+  margin-top: 3%;
+  font-size: 20px;
+  opacity: 50%;
+}
+
+footer:hover {
+  opacity: 100%;
+}
