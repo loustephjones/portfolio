@@ -170,3 +170,9 @@ footer {
 footer:hover {
   opacity: 100%;
 }
+
+a,
+a:visited {
+  text-decoration: none;
+  color: black;
+}
